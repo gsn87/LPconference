@@ -29,6 +29,45 @@ body {
 	color:#2e2e2e;
 }
 
+#conference {
+	background: #efefef;
+}
+.conference p {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+.conference p span{
+	color: #BD1D1D;
+	font-family: 'sinkin_sans600_semibold';
+
+}
+.conference p br{
+	padding-top:10px;
+
+}
+.conference p span:before {
+	content:'\f005';
+	font-family: FontAwesome;
+}
+.conference p span:after {
+	content:'\f005';
+	font-family: FontAwesome;
+}
+
+.conf-title{
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #bd1d1d;
+	padding: 15px;
+	border-radius: 0;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+
 .highlight {
 	color: #ffffff;
 	font-weight: 700;

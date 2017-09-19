@@ -54,7 +54,7 @@ jQuery(document).ready(function($) {
   });
  
   days.owlCarousel({
-   	items : 4,
+   	items : 7,
     itemsMobile       : [479,4],
     pagination:false,
     responsiveRefreshRate : 100,
